@@ -1,0 +1,6 @@
+DOCTYPE delaration is simply a piece of information that tell the browser what type of the document it is supposede to render.
+ For example, in HTML 5, the dcotytpe declaration is :
+
+ <!DOCTYPE html>
+
+ This simpe tag make the browser understand that the corresponding document is an HTML 5 file.

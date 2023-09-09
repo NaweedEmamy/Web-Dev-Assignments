@@ -1,0 +1,7 @@
+Comments are used to add explanations and elaborations to the source code. But they are not rendered when the pages is rendered in the browser.
+The format (sytnax) for HTML comment is as bellow:
+
+<!--Comment Text-->
+
+The keyboard shortcut for comments is typcially:
+CTRL + / ( for windows)

@@ -1,0 +1,19 @@
+Tag and Element
+Tags are building blocks of HTML.
+A tag is mainly represented as folows:
+
+<h1> This is a heading </h1>
+
+Where:
+<h1> is the opening tag.
+</h1> is the closign tag.
+and "This is a heading tag" is content.
+
+All these parts together are known as " Element".
+
+Not:Elements can have attributes. Attributes define some properties to the  contents. For example, size and color.
+This is a n example of an elemetn containing a tag attribute:
+
+<p style="Color: Blue">This is a content that is modified by an attribute.</p>
+
+Due the added attribute at the beginig tag, the contetns of the elemetn will be rendered blue in the browser.
