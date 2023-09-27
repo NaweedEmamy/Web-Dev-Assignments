@@ -1,0 +1,55 @@
+Answers
+Q1:
+Semantic Elements
+Audio and Video Support
+Canvas Elements
+Geolocation API
+Local Storage
+Responsive Images
+Web Workers
+Drag and Drop API
+Form Enhancements
+Web Sockets
+Micro Data
+Cross Document Messaging
+
+Q2:
+HTML entities are the reserved characters that are used in the HTML document. They are not present in your standard keyboard. They provide a wide range of characters, allowing you to add icons, geometric shapes, mathematical operators, and so on.
+Examlpes:
+1. &amp; to indicate &
+2. &copy; to indicate copyright symbol
+3. &trade; to indicate trademark sign
+4. &pound; to indicate pound sign
+5. &deg; to indicate degree symbol
+
+
+Q3:
+Web accessibility means that websites, tools, and technologies are designed and developed so that people with disabilities can use them. More specifically, people can:
+
+perceive, understand, navigate, and interact with the Web
+contribute to the Web
+Web accessibility encompasses all disabilities that affect access to the Web, including:
+
+auditory
+cognitive
+neurological
+physical
+speech
+visual
+Web accessibility also benefits people without disabilities, for example:
+
+- people using mobile phones, smart watches, smart TVs, and other devices with small screens, different input modes, etc.
+- older people with changing abilities due to ageing
+- people with “temporary disabilities” such as a broken arm or lost glasses
+- people with “situational limitations” such as in bright sunlight or in an environment where they cannot listen to audio
+- people using a slow Internet connection, or who have limited or expensive bandwidth.
+
+Q4:
+WE can make our website acceible by following the below guidelines:
+
+1. Ensuring webSite allows keyboard navigation
+2.Uing High-Contrast colors in design
+3.Providing Alt Text for Images
+4.Using hierarchy of headings (h1,h2, h3,...)
+5.Adding Captions and Transcripts to Videos
+

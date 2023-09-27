@@ -1,0 +1,18 @@
+A favicon (short for “favorite icon”) is an icon that is displayed in the browser’s address bar and tab title for a website. It is used to help users quickly identify the website and distinguish it from other tabs or bookmarks.
+Favicons originate as small images (usually 16 x 16 pixels) that are added to a <link> element, which is included in the <head> of the HTML document.
+
+Here is an sample code to illustrate favicon incorporation into html:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MPage Title</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+</head>
+<body>
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
