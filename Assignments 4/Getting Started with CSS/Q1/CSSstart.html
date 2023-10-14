@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Getting Started with CSS</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      /* This is an example of an Internal CSS Styling method */
+
+      .css {
+        width: 100%;
+        height: 250px;
+        background-color: bisque;
+      }
+      #external{
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="title"></div>
+    <h1>
+      In this web page, we are going to learn some fantastic CSS synatxes.
+    </h1>
+    <h2>
+      There ar mainly three methods of implementing CSS properties listed below
+    </h2>
+    <br />
+    <br />
+    <ol>
+      <li>Inline Method</li>
+      <li>Internal Method</li>
+      <li>External Method</li>
+    </ol>
+    <hr />
+    <!-- Inline CSS styling method Example-->
+    <div class="css" id="inline" style="border: solid 1px black">
+      <h3>Inline Method</h3>
+      <p>
+        Inline CSS is used to style a specific HTML element. For this CSS style,
+        you’ll only need to add the style attribute to each HTML tag, without
+        using selectors.
+      </p>
+      <p>
+        This CSS type is not really recommended, as each HTML tag needs to be
+        styled individually. Managing your website may become too hard if you
+        only use inline CSS. However, inline CSS in HTML can be useful in some
+        situations. For example, in cases where you don’t have access to CSS
+        files or need to apply styles for a single element only.
+      </p>
+    </div>
+    <div class="css" id="internal">
+      <h3>Internal Method</h3>
+      <p>
+        Internal or embedded CSS requires you to add a style tag in the head
+        section of your HTML document.
+      </p>
+      <p>
+        This CSS style is an effective method of styling a single page. However,
+        using this style for multiple pages is time-consuming as you need to put
+        CSS rules on every page of your website.
+      </p>
+    </div>
+    <div class="css" id="external" style="background-color: red;">
+        <!-- In the current example, the div with the id="external" has been styled in three differetn methods namely, inline, internal and external.
+As we can clearly see, the inline styling method has dominated the rest two methods and the background color has become red as defined in inline syling method.-->
+      <h3>External Method</h3>
+      <p>
+        With external CSS, you’ll link your web pages to an external .css file,
+        which can be created by any text editor in your device (e.g.,
+        Notepad++).
+      </p>
+      <p>
+        This CSS type is a more efficient method, especially for styling a large
+        website. By editing one .css file, you can change your entire site at
+        once.
+      </p>
+    </div>
+  </body>
+</html>

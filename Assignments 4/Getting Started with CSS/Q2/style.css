@@ -1,0 +1,15 @@
+.content{
+    margin: 100px;
+    background-color: bisque;
+}
+.content__sports{
+    background-color: blueviolet;
+    margin-bottom: 5px;
+}
+.content__cuisine{
+    background-color: aquamarine;
+    border: 3px solid black;
+}
+.content__business--hover:hover{
+    background-color: aliceblue;
+}

@@ -1,0 +1,13 @@
+/* color palette*/
+
+input[type=text]{
+    background-color: bisque;
+}
+
+div{
+    border: solid 1px black;
+    background-color: rgba(14, 9, 63, 0.3); /*a is the opacity factor*/
+}
+textarea{
+    background-color: aqua;
+}

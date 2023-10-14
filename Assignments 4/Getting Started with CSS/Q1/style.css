@@ -1,0 +1,8 @@
+/* This is an External CSS styiling method */
+
+#external{
+    background-color: blue;
+}
+
+/* In the current example, the div with the id="external" has been styled in three differetn methods namely, inline, internal and external.
+As we can clearly see, the inline styling method has dominated the rest two methods and the background color has become red as defined in inline syling method. */
