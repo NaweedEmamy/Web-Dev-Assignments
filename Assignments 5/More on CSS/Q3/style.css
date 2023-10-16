@@ -1,0 +1,38 @@
+nav {
+  width: 800px;
+  height: 60px;
+  background-color: rgb(205, 226, 43);
+  color: black;
+
+  display: flex;
+  justify-content: start;
+}
+ul {
+  display: flex;
+}
+li {
+  margin: auto;
+  margin-right: 50px;
+  justify-content: space-evenly;
+  list-style: none;
+  text-decoration: underline;
+}
+li:hover {
+  color: chocolate;
+  cursor: pointer;
+}
+.li__home{
+  border: 1px solid black;
+}
+.li__aboutus{
+  border: 2px dashed yellow;
+}
+.li__contact{
+  border: 2px dotted green ;
+}
+.li__blog{
+  border: 2px double blue;
+}
+.li__login{
+  border: 5px groove red;
+}

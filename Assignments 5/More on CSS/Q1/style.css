@@ -1,0 +1,23 @@
+nav {
+  width: 800px;
+  height: 60px;
+  background-color: blueviolet;
+  color: white;
+
+  display: flex;
+  justify-content: start;
+}
+ul {
+  display: flex;
+}
+li {
+  margin: auto;
+  padding-right: 50px;
+  justify-content: space-evenly;
+  list-style: none;
+  text-decoration: underline;
+}
+li:hover{
+    color: chocolate;
+    cursor:pointer;
+}
