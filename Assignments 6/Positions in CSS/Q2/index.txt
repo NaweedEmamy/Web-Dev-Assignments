@@ -1,0 +1,8 @@
+Difference between Absolute and Relative positioning:
+
+Absolute Position:
+In Absolute positioning, the item is positioned relative to its first non-static parent. The item is removed from he current area and is treated as a different layer.
+The removed item do not leave its space behind.
+Relative Position:
+In Relative positioning, the item is positioned relative to its current position. It is still treated in the same layer.
+The positioned item will leave its space behind.

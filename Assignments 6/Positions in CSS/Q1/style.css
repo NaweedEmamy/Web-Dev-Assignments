@@ -1,0 +1,33 @@
+.box {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(173, 177, 173);
+  border: 1px solid #ccc;
+  text-align: center;
+}
+.boxa {
+  position: relative;
+  left: 200px;
+  top: 200px;
+}
+.boxb {
+  position: absolute;
+  left: -30px;
+  bottom: 30px;
+}
+.boxc {
+  position: absolute;
+  bottom: 30px;
+  right: -30px;
+}
+.boxd {
+  position: absolute;
+  top: 30px;
+  left: -30px;
+}
+
+.boxe {
+  position: absolute;
+  top: 30px;
+  right: -30px;
+}
