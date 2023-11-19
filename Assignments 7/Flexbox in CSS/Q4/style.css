@@ -1,0 +1,46 @@
+body,
+h2,
+p {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+section {
+  background-color: #f4f2fd;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.pricing-package {
+  width: 300px;
+  height: fit-content;
+  background-color: white;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 40px 0 0 30px;
+}
+.plan-type {
+  font-size: 36px;
+}
+.basic {
+  background-color: #202842;
+  color: white;
+}
+button {
+  padding: 12px 35px;
+  margin: 30px;
+  border-radius: 25px;
+  color: white;
+  background-color: #202842;
+  font-size: 18px;
+}
+.basic_btn{
+  background-color: white;
+  color: black;
+}
+.price{
+  padding: 15px 0 15px 0;
+}

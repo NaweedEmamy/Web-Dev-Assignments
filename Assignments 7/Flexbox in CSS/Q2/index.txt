@@ -1,0 +1,17 @@
+1. justify-content: This property allows arranging items in horizontal direction based on the main axis.
+2. aling-items: This property allows arranging items in vertical direction based on the cross axis.
+Note: Once the axis changes, the fucntions of the above mentioned properties change too.
+3.gap: This property provides a gap between items.
+4. flex-direction:This property provides facility to arrange items in a particular directions by changing the main axix. It takes the following four values:
+- row
+-column
+-row-reverse
+-column-reverse
+5. flex-wrap:In CSS, the flex-wrap property is used in conjunction with flex containers to control how flex items wrap within the container when there's not enough space along the main axis to accommodate them. 
+flex-wrap has three possible values:
+
+nowrap:
+
+Flex items are not allowed to wrap to a new line or column. They will try to fit within the available space on a single line along the main axis, potentially causing overflow if space is insufficient.
+wrap:Flex items wrap to the next line or column when there is not enough space to accommodate them on the current line or column along the main axis. This behavior creates a new "line" or "column" for the overflowing items.
+wrap-reverse:Similar to wrap, but the wrapping direction is reversed. Flex items will wrap to the previous line or column when there's not enough space on the current line or column.

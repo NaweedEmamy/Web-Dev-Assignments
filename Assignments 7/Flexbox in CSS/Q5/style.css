@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  overflow: hidden;
+}
+
+.left-section {
+  width: 50vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.right-section {
+  width: 50vw;
+  float: right;
+}
+.heroImage {
+  width: 100%;
+  height: 100%;
+}
+.top-section {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin: 40px 40px 0px 40px;
+}
+.top-right {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.top-left {
+  width: 50%;
+  height: 100px;
+}
+.top-menu {
+  display: flex;
+  gap: 10px;
+}
+.top-btn {
+  display: flex;
+  gap: 10px;
+}
+.login-btn {
+  background-color: red;
+  color: white;
+  width: 50px;
+  border-color: #fb792b;
+}
+.top-menu a {
+  text-decoration: none;
+}
+h3 {
+  margin: 50px 0px 0px 40px;
+  font-size: xx-large;
+}
+.tagline {
+  margin: 10px 0px 0px 40px;
+  display: flex;
+  gap: 10px;
+  font-size: 22px;
+}
+.green-tag {
+  color: green;
+}
+.orange-tag {
+  color: orange;
+}
+.blue-tag {
+  color: blue;
+}
+.services-section {
+  margin: 30px 0px 0px 40px;
+}
+.services-section .srv-btn {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: transparent;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+}
+.services-section .book-btn {
+  border-color: #213d77;
+  background-color: #213d77;
+  color: white;
+  cursor: pointer;
+}
+.booking-section {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  height: 200px;
+  margin-top: 30px;
+  gap: 5px;
+}
+.booking {
+  width: 500px;
+  height: 100px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.departure {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+.schedule {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+}
+.btn_srhc {
+  margin-top: 40px;
+  display: inline-flex;
+  align-items: center;
+  width: 500px;
+  justify-content: center;
+  margin-left: 40px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  background-color: #01bb0a;
+  padding: 15px 0;
+  font-size: 20px;
+  color: white;
+  gap: 10px;
+}
+button {
+  cursor: pointer;
+}
+span{
+  color: #a1a1a1;
+}
