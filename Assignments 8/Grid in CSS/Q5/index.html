@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Justifications</title>
+  </head>
+  <body>
+    <h1>Difference between justify-items and justify-self</h1>
+    <p>
+      justify-items property is set on the grid container to give child elements
+      (grid items) alignment in the inline direction. Whereas justify-self
+      aligns a grid item within its grid cell in the inline direction.
+    </p>
+    <div class="container1"> 
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+    </div>
+    <div class="container2"> 
+      <div class="item">A</div>
+      <div class="item item2">B</div>
+      <div class="item">C</div>
+    </div>
+    <p>
+      As we can see, in the first container justify-items property has resulted
+      in jsutification of all the items inside the main container in the center.
+      However, item B is positioned to the right side at the contianer 2 due to
+      justify-self property set on item B itself in the CSS file.
+    </p>
+  </body>
+</html>

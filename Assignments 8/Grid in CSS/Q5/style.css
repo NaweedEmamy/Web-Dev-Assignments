@@ -1,0 +1,28 @@
+.container1 {
+  display: grid;
+  width: 40vw;
+  height: 40vh;
+  margin: auto;
+  background-color: aqua;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+}
+.item {
+  background-color: yellow;
+  width: 50%;
+  height: 40%;
+}
+.container2 {
+  display: grid;
+  width: 40vw;
+  height: 40vh;
+  margin: auto;
+  background-color: aqua;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 50px;
+}
+.item2 {
+  justify-self: right;
+}

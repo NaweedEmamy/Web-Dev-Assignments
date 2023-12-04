@@ -1,0 +1,13 @@
+.container{
+    display: grid;
+    width: 60vw;
+    height: 30vh;
+    margin: auto;
+    grid-template-columns: repeat(3, 20%);
+    grid-template-rows: 100px;
+    grid-auto-rows: auto;
+    gap: 10px;
+}
+.item{
+    background-color: bisque;
+}

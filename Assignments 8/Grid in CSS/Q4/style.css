@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    width: 80vw;
+    grid-template-columns: repeat(6, 120px);
+    grid-template-rows: 60px 60px;
+    gap: 10px;
+    margin: auto;
+}
+.item{
+    display: flex;
+    background-color:aqua;
+    border-radius: 10px;
+   padding-left: 10px;
+    align-items: center;
+    font-size: 30px
+}
+.item:nth-child(odd){
+    background-color: grey;
+    color: white;
+}
+.item1{
+    grid-row: 2;
+}
+.item2{
+    grid-row: 2;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Auto Elements</title>
+</head>
+<body>
+    <h1>Grid Auto Rows/Columns</h1>
+    <p>grid-auto-rows and grid-auto-columns are used when we do not explicitly specify the heigt/width of rows/columns. This way, the created row/column will be have an autoamic size.</p>
+    <div class="container">
+<div class="container">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+    <div class="item">D</div>
+    <div class="item">E</div>
+</div>
+    </div>
+
+<P> Consider above grid cells. Here is the code snappit for the above grid's rows:</P>
+<p>grid-template-rows: 100px; <br>
+grid-auto-rows: auto;</p>
+
+<p>As we clearly see, the first row is given a height of 100px, while the second row is not given any specific diemnsion, hence the size is set automatically.</p>
+
+
+</body>
+</html>
