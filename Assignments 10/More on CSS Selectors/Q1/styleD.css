@@ -1,0 +1,17 @@
+p:last-child::after{
+content: "...";
+}
+ul{
+    list-style: none;
+}
+li::before{
+    content: "•";
+    color: red;
+    display: inline-block;
+   padding-right: 1em;
+   
+}
+P:nth-child(4)::first-letter{
+    color:red;
+    font-size: 36px;
+}
