@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  height: 90vh;
+  justify-content: space-around;
+  grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  text-align: center;
+ 
+
+}
+@media screen and (max-width:700px) {
+   .container{
+    grid-template-columns: 2fr;
+   }
+}

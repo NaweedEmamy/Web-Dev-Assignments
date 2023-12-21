@@ -1,0 +1,44 @@
+.box1,
+.box2,
+.box3,
+.box4 {
+  color: white;
+  padding: 5px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  
+  width: 90vw;
+  height: 90vh;
+  margin: auto;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;;
+}
+.box2,
+.box3 {
+  flex: 100%;
+}
+.box4{
+  justify-self: end;
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .wrapper{
+    width: 90vw;
+      }
+.box4{
+    justify-self: flex-end;
+}
+.box4{
+  margin-top: 85vh;
+}
+}

@@ -1,0 +1,29 @@
+.nav {
+
+  
+  color: white;
+  overflow: hidden;
+}
+ul {
+  display: flex;
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+}
+li {
+  list-style-type: none;
+}
+
+@media  screen and (max-width:768px) {
+    ul{
+       
+        flex-direction: column;
+        padding-top: 10px;
+        background-color: gray;
+      padding: 50px;
+      margin:30px;
+     
+    }
+    
+}

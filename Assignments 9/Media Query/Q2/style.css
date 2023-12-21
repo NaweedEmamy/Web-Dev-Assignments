@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  width: 80vw;
+  margin: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+@media screen and (max-width:800px) {
+   .image{
+    width: 45%;
+   margin: 10px;
+   }
+
+   @media screen and (max-width:500px) {
+    .image{
+        width: 100%;
+        
+    }
+   }
+}
