@@ -1,0 +1,19 @@
+:root{
+    --pb:  #00b7ff;
+    --sb:  #6c757d;
+}
+.btn{
+    color: white;
+    border: none;
+    padding: 5px;
+}
+#primaryBtn{
+    background-color: var(--pb);
+}
+#secondaryBtn{
+    background-color: var(--sb);
+    
+}
+.btn:hover{
+    cursor: pointer;
+}
